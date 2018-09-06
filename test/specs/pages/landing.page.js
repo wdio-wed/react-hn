@@ -1,6 +1,6 @@
-const Page = require('./Page.js');
+const PostPage = require('./PostPage.js');
 
-class LandingPage extends Page {
+class LandingPage extends PostPage {
   constructor () {
     super('./')
   }
